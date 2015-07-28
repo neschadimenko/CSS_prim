@@ -20,3 +20,18 @@ p {
     padding-left: 10px;
     padding-bottom: 10px;
 }
+td { background: olive; }
+td { color: white; }
+td { border: 1px solid black; }
+td {
+    background: olive;
+    color: white;
+    border: 1px solid black;
+}
+p { color: green; }
+p { color: red; }
+div {
+    width: 200px; /* Ширина блока */
+    margin: 10px; /* Поля  вокруг элемента */
+    float: left; /* Обтекание по правому краю */
+}
