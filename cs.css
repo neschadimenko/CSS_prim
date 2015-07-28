@@ -113,32 +113,39 @@ H1 + H2 {
 H2 + P {
     margin-top: -1em;
 }
-ul#menu {
-    margin: 0; padding: 0;
+q {
+    font-style: italic;
+    quotes: "\00AB" "\00BB";
 }
-ul#menu > li {
-    list-style: none;
-    width: 100px;
-    background: #b3d9d2;
-    color: #333;
+q[title] {
+    color: maroon;
+}
+a[target="_blank"] {
+    background: url(http://orig02.deviantart.net/272b/f/2014/049/e/e/grumpy_cat_painting_by_threshthesky-d76ywj8.jpg) 0 6px no-repeat;
+    padding-left: 15px;
+}
+a[href^="http://"] {
+    font-weight: bold
+}
+a[href$=".ru"] {
+    background: url(http://liubavyshka.ru/_ph/63/1/635404932.jpg?1434670625) no-repeat 0 6px;
+    padding-left: 32px;
+}
+a[href$=".html"] {
+    background: url(http://liubavyshka.ru/_ph/63/1/802135178.jpg?1436607483) no-repeat 0 6px;
+    padding-left: 32px;
+}
+a[href*="htmlbook"] {
+    background: yellow;
+}
+div[class|="block"] {
+    background: #306589;
+    color: #acdb4c;
     padding: 5px;
-    font-family: Arial, sans-serif;
-    font-size: 90%;
-    font-weight: bold;
-    float: left;
+    float:right;
+    width:200px;
+    margin-right: 60px;
 }
-li > ul {
-    list-style: none;
-    margin: 0; padding: 0;
-    border-bottom: 1px solid #666;
-    padding-top: 5px;
-}
-li > a {
-    display: block;
-    font-weight: normal;
-    font-size: 90%;
-    background: #fff;
-    border: 1px solid #666;
-    border-bottom: none;
-    padding: 5px;
+div[class|="block"] a {
+    color: #d693ff;width:200px;
 }
