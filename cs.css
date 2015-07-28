@@ -168,3 +168,22 @@ q:lang(en) {
 q:lang(fr), q:lang(ru) {
     quotes: "\00AB" "\00BB";
 }
+p.new:after {
+    content: " - Ono menya ne ponyalo!";
+}
+p:before {
+    content: "\20aa ";
+    color:lawngreen;
+    padding-right: 10px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+th:first-letter{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    color: red;
+}
+div:first-line {
+    color: red;
+    font-style: italic;
+}
