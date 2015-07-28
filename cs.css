@@ -57,7 +57,8 @@ h2 {
     border-bottom: 1px dashed red;
 }
 .warn{
-    background: url('http://webimg.ru/images/156_1.png') no-repeat ;}
+    background: url('http://webimg.ru/images/156_1.png') no-repeat ;
+     line-height: 50px}
 table.jewel {
     width: 100%;
     border: 1px solid #666;}
@@ -133,4 +134,37 @@ a[href$=".html"] {
 a[href*="htmlbook"] {
     background: yellow;
 }
+INPUT:focus {
+    color: red;
+}
+a:link {
+    color: #036;
+}
+a:visited {
+    color: greenyellow;
+}
+a:hover {
+    color: #f00;
+}
+a:active {
+    color: #ff0;
+}
+tr:hover {
+    background: #fc0;
+}
+th:first-child {
+    color:hotpink;
+}
+h1:first-child {
+    text-indent: 2em;
+}
 
+q:lang(de) {
+    quotes: "\201E" "\201C";
+}
+q:lang(en) {
+    quotes: "\201C" "\201D";
+}
+q:lang(fr), q:lang(ru) {
+    quotes: "\00AB" "\00BB";
+}
