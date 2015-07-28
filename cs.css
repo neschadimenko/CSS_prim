@@ -73,3 +73,19 @@ th{
 .odd{
     background: #ebd3d7;
 }
+p b {
+    font-family: Times, serif;
+    color: navy;
+}
+a {
+    color: green;
+}
+.menu {
+    padding: 7px;
+    border: 1px solid #333;
+    background: #fc0;width: 500px;
+}
+.menu a {
+    color: navy;
+
+}
