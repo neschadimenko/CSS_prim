@@ -92,6 +92,9 @@ a {
 b+i {
     color: #d693ff;
 }
+p > i {
+    color: #2facff;
+}
 h2.sic {
     font-size: 140%;
     color: maroon;
@@ -109,4 +112,33 @@ H1 + H2 {
 }
 H2 + P {
     margin-top: -1em;
+}
+ul#menu {
+    margin: 0; padding: 0;
+}
+ul#menu > li {
+    list-style: none;
+    width: 100px;
+    background: #b3d9d2;
+    color: #333;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+    float: left;
+}
+li > ul {
+    list-style: none;
+    margin: 0; padding: 0;
+    border-bottom: 1px solid #666;
+    padding-top: 5px;
+}
+li > a {
+    display: block;
+    font-weight: normal;
+    font-size: 90%;
+    background: #fff;
+    border: 1px solid #666;
+    border-bottom: none;
+    padding: 5px;
 }
