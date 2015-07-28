@@ -3,7 +3,6 @@ body {
     font-size: 11pt;
     background-color: #f0f0f0;
     color: #333;
-    background: url('http://webimg.ru/images/156_1.png') no-repeat 600px 100px ;
 }
 h1 {
     color: #a52a2a;
@@ -11,8 +10,14 @@ h1 {
     font-family: Georgia, Times, serif;
     font-weight: normal;
 }
+p.cite {
+    color: navy;
+    margin-left: 20px;
+    border-left: 1px solid navy;
+    padding-left: 15px;
+}
 p {
-    width: 400px;
+    width: 800px;
     text-align: justify;
     margin-left: 30mm;
     margin-right: 10px;
@@ -22,14 +27,7 @@ p {
     padding-bottom: 10px;
     font-size: 1.5em;
 }
-td { background: olive; }
-td { color: white; }
-td { border: 1px solid black; }
-td {
-    background: olive;
-    color: white;
-    border: 1px solid black;
-}
+
 p { color: green; }
 p { color: red; }
 div {
@@ -39,10 +37,26 @@ div {
     font-weight: 600;
     line-height: 1.2;
 }
-table {
-    width: 40%;
-    background: #f0f0f0;
-}
+
 h2 {
     background-color: RGB(249, 201, 16);
+}
+.gost {
+    color: green;
+    font-weight: bold;
+}
+.term {
+    border-bottom: 1px dashed red;
+}
+.warn{
+    background: url('http://webimg.ru/images/156_1.png') no-repeat ;}
+table.jewel {
+    width: 100%;
+    border: 1px solid #666;}
+th{
+    background: #009383;
+    color: #fff;
+    text-align: left; }
+.odd{
+    background: #ebd3d7;
 }
