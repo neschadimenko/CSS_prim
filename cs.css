@@ -4,6 +4,8 @@ body {
     background-color: #f0f0f0;
     color: #333;
 }
+* {
+    font-family: Arial, Verdana, sans-serif;}
 h1 {
     color: #a52a2a;
     font-size: 24pt;
@@ -26,10 +28,9 @@ p {
     padding-left: 10px;
     padding-bottom: 10px;
     font-size: 1.5em;
+    color: green;
 }
 
-p { color: green; }
-p { color: red; }
 div {
     width: 200px;
     margin: 10px;
@@ -44,12 +45,6 @@ div {
     width: 225px;
     padding: 5px;
     background: #f0f0f0;
-}
-p#opa {
-    color: red;
-    border: 1px solid #666;
-    background: #eee;
-    padding: 5px;
 }
 h2 {
     background-color: RGB(249, 201, 16);
@@ -138,14 +133,4 @@ a[href$=".html"] {
 a[href*="htmlbook"] {
     background: yellow;
 }
-div[class|="block"] {
-    background: #306589;
-    color: #acdb4c;
-    padding: 5px;
-    float:right;
-    width:200px;
-    margin-right: 60px;
-}
-div[class|="block"] a {
-    color: #d693ff;width:200px;
-}
+
