@@ -3,6 +3,7 @@ body {
     font-size: 11pt;
     background-color: #f0f0f0;
     color: #333;
+    background: url('http://webimg.ru/images/156_1.png') no-repeat 600px 100px ;
 }
 h1 {
     color: #a52a2a;
@@ -13,12 +14,13 @@ h1 {
 p {
     width: 400px;
     text-align: justify;
-    margin-left: 60px;
+    margin-left: 30mm;
     margin-right: 10px;
     border-left: 1px solid #999;
     border-bottom: 1px solid #999;
     padding-left: 10px;
     padding-bottom: 10px;
+    font-size: 1.5em;
 }
 td { background: olive; }
 td { color: white; }
@@ -31,7 +33,16 @@ td {
 p { color: green; }
 p { color: red; }
 div {
-    width: 200px; /* Ширина блока */
-    margin: 10px; /* Поля  вокруг элемента */
-    float: left; /* Обтекание по правому краю */
+    width: 200px;
+    margin: 10px;
+    float: left;
+    font-weight: 600;
+    line-height: 1.2;
+}
+table {
+    width: 40%;
+    background: #f0f0f0;
+}
+h2 {
+    background-color: RGB(249, 201, 16);
 }
