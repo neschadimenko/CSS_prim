@@ -187,10 +187,21 @@ div:first-line {
     color: red;
     font-style: italic;
 }
-table.two {
-    color: red; /* Цвет текста */
-    background: #333; /* Цвет фона таблицы */
-    border: 2px solid red; /* Красная рамка вокруг таблицы */
-}
 P.red {
     color: maroon; font-size: 36px}
+/*#menu ul li {
+    color: green;
+}
+.two {
+    color: red;
+}*/
+/* Понижаем специфичность первого селектора */
+ul li {...} /* Убираем идентификатор */
+.two  {...}
+
+/* Повышаем специфичность второго селектора */
+#menu ul li {...}
+#menu  .two {...} /* Добавляем  идентификатор */
+
+#menu ul li {...}
+.two { color:  red !important; } /* Добавляем !important */
