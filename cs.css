@@ -187,3 +187,10 @@ div:first-line {
     color: red;
     font-style: italic;
 }
+table.two {
+    color: red; /* ÷вет текста */
+    background: #333; /* ÷вет фона таблицы */
+    border: 2px solid red; /*  расна€ рамка вокруг таблицы */
+}
+P.red {
+    color: maroon; font-size: 36px}
