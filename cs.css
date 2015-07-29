@@ -205,3 +205,14 @@ ul li {...} /* Убираем идентификатор */
 
 #menu ul li {...}
 .two { color:  red !important; } /* Добавляем !important */
+#A, .a {
+    border: none;
+    background: #f0f0f0;
+    color: green;
+    padding: 5px;
+}
+.b {
+    border: 1px solid red;
+    color: red;
+    padding: 0;
+}

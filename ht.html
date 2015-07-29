@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <link href="cs.css" rel="stylesheet" >
     <title></title>
+    <script>
+        function validForm(f) {
+            user = document.getElementById("userName");
+            if(user.value == "")
+                document.getElementById("msg").innerHTML = 'Пожалуйста, введите имя.';
+            else f.submit();
+        }
+    </script>
 </head>
 <body>
 <h1 style="font-size: 36px; font-family: Times, serif; color: red">Флексагон</h1>
@@ -13,6 +21,12 @@
 <p><a href="http://www.htmlbook.ru/html/">Теги HTML</a> |
     <a href="http://stepbystep.htmlbook.ru">Шаг за шагом</a> |
     <a href="http://webimg.ru">Графика для Веб</a></p>
+<form action="handler.php" onsubmit="validForm(this); return false">
+    <p>Введите свое имя:</p>
+    <div id="msg"></div>
+    <p><input type="text" id="userName" name="user"></p>
+    <p><input type="submit"></p>
+</form>
 <p>Lorem <b>ipsum </b> dolor sit amet, <i>consectetuer</i> adipiscing elit.</p>
 <p>Lorem ipsum dolor sit amet, <i>consectetuer</i> adipiscing elit.</p>
 <p style="font-size: 120%; font-family: monospace; color: #cd66cc">Флексагон представляет собой бумажную фигуру, которая имеет
@@ -95,10 +109,13 @@
     <tr class="odd">
         <td>Сапфир</td><td>Голубой</td><td>9</td>
     </tr>
-    <p>Цитата на французском языке: <q lang="fr">Ce que femme veut,Dieu le veut</q>.</p>
-    <p>Цитата на немецком: <q lang="de">Der Mensch, versuche die Gotter nicht</q>.</p>
-    <p>Цитата на английском: <q lang="en">То be or not to be</q>.</p>
-    <p> class="new">Ловля льва в пустыне с помощью метода золотого сечения.</p>
 </table>
+<p>Цитата на французском языке: <q lang="fr">Ce que femme veut,Dieu le veut</q>.</p>
+<p>Цитата на немецком: <q lang="de">Der Mensch, versuche die Gotter nicht</q>.</p>
+<p>Цитата на английском: <q lang="en">То be or not to be</q>.</p>
+<p> class="new">Ловля льва в пустыне с помощью метода золотого сечения.</p>
+<p id="A" class="b">Стиль идентификатора</p>
+<p class="a b">Стиль классов a и b</p>
+<p class="b">Стиль класса b</p>
 </body>
 </html>
